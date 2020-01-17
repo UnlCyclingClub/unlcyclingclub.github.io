@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<script src="https://kit.fontawesome.com/4262d210c9.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+		  <a class="navbar-brand" href="index.html">The Tour de Husker</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li id="nav_home" class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			  </li>
+			  <li id="nav_info" class="nav-item">
+				<a class="nav-link" href="info.html">Info</a>
+			  </li>
+			  <li id="nav_events" class="nav-item">
+				<a class="nav-link" href="events.html">Events</a>
+			  </li>
+			</ul>
+			<ul class="navbar-nav mr">
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.facebook.com/UNLCycling/"><i class="fab fa-facebook-f"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://www.instagram.com/unlcyclingclub/"><i class="fab fa-instagram"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Register</a>
+				</li>
+			</ul>
+			
+		  </div>
+		</nav>
+
+		<script>
+			$(document).ready(function() {
+				let id = $("body").attr("id");
+				switch(id) {
+					case "home":
+						$("#nav_home").addClass("active");
+						break;
+					case "info":
+						$("#nav_info").addClass("active");
+						break;
+					case "events":
+						$("#nav_events").addClass("active");
+						break;
+				}
+			});
+		</script>
+	</body>
+</html>
