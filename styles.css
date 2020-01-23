@@ -64,3 +64,11 @@ th {
 		padding-right: 10%;
 	}
 }
+
+/* Icons */
+.font-awesome {
+	font-family: FontAwesome;
+    display: inline-block;
+	vertical-align: middle;
+	font-style: normal
+}
