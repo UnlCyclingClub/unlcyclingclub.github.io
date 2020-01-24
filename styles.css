@@ -74,3 +74,34 @@ th {
 	vertical-align: middle;
 	font-style: normal
 }
+
+.column-3 {
+	flex: 33%;
+	max-width: 33%;
+	padding: 0 4px;
+}
+  
+.column-3 img {
+	margin-top: 24px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.column-4 {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+  
+.column-4 img {
+	margin-top: 24px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	.column-3, .column-4 {
+		flex: 100%;
+		max-width: 100%;
+	}
+}
