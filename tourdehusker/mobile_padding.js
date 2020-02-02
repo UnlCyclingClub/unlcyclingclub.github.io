@@ -20,7 +20,6 @@ function update_padding() {
         const divs = $(".px-5");
 
         for (element of divs) {
-            console.log(element);
             $(element).removeClass("px-5");
             $(element).addClass("px-3");
         }
