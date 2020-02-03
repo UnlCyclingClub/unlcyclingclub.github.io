@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://unlcyclingclub.github.io/tourdehusker/sitemap.xml
